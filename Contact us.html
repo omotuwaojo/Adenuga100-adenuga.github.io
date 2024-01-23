@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" type="text/css"  href="style.css">
+</head>
+<body>
+    <div class="upper-header">
+        <ul>
+           <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li> 
+           <li><a href="#"><ion-icon name="logo-facebook" ></ion-icon></a></li> 
+           <li><a href="#"><ion-icon name="logo-instagram"></ion-icon> </a></li> 
+           <li>
+                <ion-icon name="person-outline"></ion-icon>
+                <input type="button" name="Login" value="Login">
+            </li>
+        </ul>
+        
+    </div>
+
+    <div class="main-header">
+       
+        
+        <img src="img/rucketech/logo ruka.jpg"  >
+
+
+        <div class="main-container">
+            <ion-icon name="mail-outline"></ion-icon>
+            <i>EMAIL US</i>
+            <br>
+            <a href="mailto:rukatech@gmail.com"><b>rukatech@gmail.com</b></a>
+        </div>
+
+        <div class="main-container">
+            <ion-icon name="call-outline"></ion-icon>
+            <i>CALL US</i>
+            <p> <b>+2348167532723</b></p>
+        </div>
+
+        <div class="main-container">
+            <ion-icon name="newspaper-outline"></ion-icon>
+           <i>FEEDBACK</i>
+           <br>
+           <a href="#"><b>complain </b></a>
+        </div>
+      
+    </div>
+
+    <div class="lower-header">
+        <ul class="menus">
+            <li class="dropdown"> <a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About Us
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                      <a href="Gall.html">Gallery</a>
+                    </li>
+                  </ul>
+                
+            </li>
+
+            <li class="dropdown"> <a href="courses.html">Our Courses</a></li>
+            <li class="dropdown"> 
+                <a href="#">Online Application
+                    <b class="caret"></b>
+                </a> 
+                <ul class="dropdown-menu">
+                    <li><a href="Enroll.html">Enroll Now</a></li>
+                    <li><a href="#">Online payment</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Co-Work Space
+                   <b class="caret"></b> 
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Book a space</a>
+                  </li>
+                </ul>
+            </li>
+            <li class="dropdown"> <a href="#">Community</a></li>
+            <li class="dropdown"> <a href="Update.html">Updates</a></li>
+            <li class="dropdown"><a href="#">Resources</a></li>
+            <li class="dropdown"> <a href="Contact us.html">Contact Us</a></li>
+            <li class="menubtn" onclick=showSidebar()><a href="#"><ion-icon name="menu-outline"></ion-icon></a></li>
+        </ul>
+<!--sidebar-->
+        <ul class="sidebar">
+            <li class="close"onclick=hideSidebar()><a href="#"><ion-icon name="close-outline"></ion-icon></a></li>
+            <li> <a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About Us
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                      <a href="Gall.html">Gallery</a>
+                    </li>
+                  </ul>
+                
+            </li>
+
+            <li> <a href="courses.html">Our Courses</a></li>
+            <li class="dropdown"> 
+                <a href="#">Online Application
+                    <b class="caret"></b>
+                </a> 
+                <ul class="dropdown-menu">
+                    <li><a href="Enroll.html">Enroll Now</a></li>
+                    <li><a href="#">Online payment</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Co-Work Space
+                   <b class="caret"></b> 
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Book a space</a>
+                  </li>
+                </ul>
+            </li>
+            <li> <a href="#">Community</a></li>
+            <li> <a href="Update.html">Updates</a></li>
+            <li><a href="#">Resources</a></li>
+            <li> <a href="Contact us.html">Contact Us</a></li>
+        </ul>
+        
+        
+    </div>
+        
+    </div>
+
+    <div class="form-container">
+        <form action="">
+
+            <h4>Send In Your Query</h4>
+
+            <div  class="form">
+                <div class="label">
+                   <label for="Fname">Name</label>
+                </div>
+                <div class="field">
+                   <input type="text" name="first name" placeholder="Enter your Name">
+                </div>
+            </div>
+         <!--first name-->
+
+            <div class="form">
+                <div class="label">
+                   <label for="EMAIL">Email</label>
+                </div>
+                <div class="field">
+                   <input type="text" name="Email" placeholder="Enter your Email">
+                </div>
+             </div>
+          <!--email-->
+
+            <div class="form">
+                <div class="label">
+                   <label for="subject">Subject</label>
+                </div>
+                <div class="field">
+                    <input type="text" name="subject" placeholder="Enter Subject">
+                </div>
+            </div>
+         <!--subject-->
+
+            <div class="form">
+                <div class="label">
+                    <label for="dsc"> Description</label>
+                </div>
+                <div class="field">
+                   <textarea name="dsc" placeholder="Enter description......." cols="30" rows="10"></textarea>
+                </div>
+             </div>
+
+          <!--Testares-->
+            <div class="btn">
+                <input type="button" value="submit">
+            </div>
+
+        </form>
+
+    </div>
+
+    <!---boxes-->
+
+    <div class="box">
+        <div class="location">
+            <ion-icon name="location-outline"></ion-icon>
+            <h1>Our location</h1>
+            <address>Debash filling station, Awokoya, ijebu-ode,Ogun State.</address>
+        </div>
+
+        <div class="contac">
+            <ion-icon name="call-outline"></ion-icon>
+            <h1>Call us</h1>
+            <small>
+                E-mail : hello@kachitech.ng
+            </small>
+            <br>
+            <small>
+                Mobile : +2348167532723 
+            </small>
+        </div>
+
+        <div class="hour">
+            <ion-icon name="time-outline"></ion-icon>
+            <h1>working hours</h1>
+            <small>Mon-Fri: 9am to 5 pm</small>
+        </div>
+    </div>
+
+
+
+    
+<footer class="maim">
+    <div class="main-footer">
+    <div class="footer">
+        <h3>Links</h3>
+        <ul>
+            <li><a href="#">Our Courses</a></li>
+            <li><a href="#">Gallery </a></li>
+            <li><a href="#">Career Conselling</a></li>
+            <li><a href="#">Upcoming Events </a></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+           <h3>Follow Us</h3>
+        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-facebook" ></ion-icon></a> 
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon> </a>
+
+    </div>
+    <div class="footer">
+        <h3>Contact</h3>
+        <p>hello@kachitec.ng</p>
+        <p>+238167532723</p>
+        <address>No 6, Badore road, beside Enyo filling station,<br> by powerline Ado Ajah Lagos</address>
+    </div>
+  </div>
+</footer>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+        
+  
+</body>
+</html>
