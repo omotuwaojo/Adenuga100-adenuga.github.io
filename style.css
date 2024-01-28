@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    padding: auto;
     margin: 0;
 }
 
@@ -1019,9 +1018,9 @@ footer li{
     background: rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 1200px){
+/*@media screen and (max-width: 1200px){
     .gallerys{
-        margin-left: 30px;
+    align-items:center ;
     }
 }
  
@@ -1036,13 +1035,20 @@ footer li{
     .gallerys{
         margin-left: -20px;
     }
-}
+}*/
 
 @media screen and (max-width: 1200px) and (min-width: 320px){
     .gallerys{
-        margin-left: 0%;
+       
     }
-
+    .gall img{
+        
+        width: 300px;
+        height: 250px;
+    }
+    .gall .overlay{
+        display: none;
+    }
     
 }
 
@@ -1226,9 +1232,10 @@ footer li{
 }
 
 
-@media screen and (max-width: 500px) and (min-width: 100px){
-    .enroll .btn{
-        float: left;
+@media screen and (max-width:1200px) and (min-width: 320px){
+     .btn{
+        float: none;
+      
     }
 
     .enroll h2{
@@ -1236,10 +1243,10 @@ footer li{
     }
 }
 
-
+/*
 @media screen and (max-width: 500px){
     .enroll .btn{
-        margin-left: -40px;
+        margin-left: px;
     }
 }
 
@@ -1251,7 +1258,7 @@ footer li{
 
 @media screen and (max-width: 320px) and (min-width: 100px){
     .enroll .btn{
-        margin-left: -38px;
+        margin-left: px;
     } 
 
     .detail-field .field  input, select{
@@ -1260,7 +1267,7 @@ footer li{
     }
 
 }
-
+*/
 
 
 
@@ -1519,70 +1526,90 @@ footer li{
 
 /* /*courses* */
 .content{
-width: 50%;
-margin-left: 290px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+padding: 2% ;
 }
 
-.content h1{
+.content, h1,p{
 text-align: center;
 }
 
 .content p{
-    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
 }
 
 .fl{
-    margin-right: 100px;
-    margin-top: 25px;
+   display:flex;
+   flex-wrap: wrap-reverse;
+   flex: content;
+   flex-direction: row-reverse;
+   flex-wrap: wrap-reverse;
+   padding: 20px;
+   
 }
 
 .boxes{
     width: 40%;
-   float: right;
-   margin: 20px;
+   margin: 10px;
    background-color: #fff;
-    height: 550px;
-    
-    
-    border: 2px solid;
+    height: 500px;
+    border: 2px solid red;
 }
 
 .boxes img{
     width: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin: auto;
 }
 
 .boxes p{
-    width: 400px;
-    margin-left: 4%;
+    font: 1em monospace ;
     padding: 4px;
 }
 
 .boxes h2{
-    margin-left: 4%;
-    padding: 1px;
+    text-align: center;
     color: rgb(123, 123, 241);
 }
 
-.boxes button{
-    margin-left:4%;
-    background-color: rgb(67, 66, 66);
+.boxes button{ 
+    
+    background-color: rgb(230, 8, 8);
     color: #fff;
     height: 40px;
     width: 100px;
-    margin-top: 20px;
+    
+}
+@media screen and (max-width:1200px) and (min-width: 320px){
+    .boxes img{
+        width: 100%;
+        
+    } 
+    .fl{
+       display: inline;
+       align-items: center;
+       
+        
+     }
+     .boxes{
+        width: 70%;
+       margin: 10px;
+       background-color: #fff;
+        height: 500px;
+        border: 2px solid red;
+    }
+    
 }
 
 .boxes .btn3{
-    margin-top: 20%;
+    
 }
 .boxes .btn2{
-    margin-top: 27%;
+    
 }
 
 .boxes .btn4{
-    margin-top: 21%;
+    
 }
 
 
